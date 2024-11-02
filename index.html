@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Driven Eats</title>
+ <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div class="container">
+    <div class="conteudo">
+              <div class="barra-topo">
+            <h1>DrivenEats</h1>
+            <p>Sua comida em 6 minutos</p>
+        </div>
+        <div class="feed">
+        <div class="comida">
+            <div class="menu-titulo">
+                    <h1>Primeiro, seu prato</h1>
+            </div>
+            <div class="opcoes">
+                <div class="item" onclick="selecaoComida(this)";>
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/pf_frango.jpg"/>
+                        <div class="prato"><p>Frango</p></div>
+                        <div class="descricao-prato"><p>Acompanha arroz, </br> feijão e salada</p></div>
+                        <div class="preco">R$14,90</div>
+                    </div>
+                </div>                        
+                <div class="item" onclick="selecaoComida(this)">
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/pf_carne.jpg"/>
+                        <div class="prato"><p>Carne e ovo</p></div>
+                        <div class="descricao-prato"><p>Acompanha arroz, </br> feijão e salada</p></div>
+                        <div class="preco">R$17,90</div>
+                    </div>
+                </div>
+                <div class="item" onclick="selecaoComida(this)">
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/pf_calabresa.png"/>
+                        <div class="prato"><p>Calabresa acebolada</p></div>
+                        <div class="descricao-prato"><p>Acompanha arroz, </br> feijão e salada</p></div>
+                        <div class="preco">R$16,90</div>
+                    </div>
+                </div>
+            </div>  
+            
+        </div>
+        <div class="bebida">
+            <div class="menu-titulo">
+                    <h1>Agora, sua bebida</h1>
+            </div>
+            <div class="opcoes">
+                <div class="item" onclick="selecaoBebida(this)";>
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/coca.png"/>
+                        <div class="prato"><p>Coca-Cola</p></div>
+                        <div class="descricao-prato"><p>Lata 350ml</p></div>
+                        <div class="preco">R$6,90</div>
+                    </div>
+                </div>                        
+                <div class="item" onclick="selecaoBebida(this)";>
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/fanta.png"/>
+                        <div class="prato"><p>Fanta</p></div>
+                        <div class="descricao-prato"><p>Lata 350ml</p></div>
+                        <div class="preco">R$4,90</div>
+                    </div>
+                </div>
+                <div class="item" onclick="selecaoBebida(this)";>
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/suco.png"/>
+                        <div class="prato"><p>Suco de laranja</p></div>
+                        <div class="descricao-prato"><p> 500ml</p></div>
+                        <div class="preco">R$7,90</div>
+                    </div>
+                </div>
+            </div>  
+            
+        </div>  
+        <div class="sobremesa">
+            <div class="menu-titulo">
+                    <h1>Por fim, sua sobremesa</h1>
+            </div>
+            <div class="opcoes">
+                <div class="item" onclick="selecaoSobremesa(this)";>
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/pudim.jpg"/>
+                        <div class="prato"><p>Pudim</p></div>
+                        <div class="descricao-prato"><p>Apenas um pudim</p></div>
+                        <div class="preco">R$7,90</div>
+                    </div>
+                </div>                        
+                <div class="item" onclick="selecaoSobremesa(this)";>
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/mouse.jpg"/>
+                        <div class="prato"><p>Mouse</p></div>
+                        <div class="descricao-prato"><p>Cremoso, gostoso</p></div>
+                        <div class="preco">R$6,90</div>
+                    </div>
+                </div>
+                <div class="item"onclick="selecaoSobremesa(this)";>
+                    <div class="item-conteudo">
+                        <img src="projeto__driven-eats__imagens/brownie.jpg"/>
+                        <div class="prato"><p>Brownie</p></div>
+                        <div class="descricao-prato"><p>É um bolinho</p></div>
+                        <div class="preco">R$4,90</div>
+                    </div>
+                </div>
+            </div>  
+            
+        </div> 
+    </div>
+        <div class="barra-inferior">
+            <div class="botao-confirmacao"><button>Selecione os 3 itens </br> para fechar o pedido</button></div>
+            <div class="botao-fechar escondido"><button onclick="confirmacao()">FECHAR PEDIDO</button></div>
+                </div>
+        <div class="overlay">
+            <div class="tela-pedido">
+                <p1>Confirme seu pedido</p1>
+                <p2>Prato</p2>
+                <p2>bebida</p2>
+                <p2>sobremesa</p2>
+                <p1>total do pedido</p1>
+                <a onclick="enviarMensagem()">Tudo certo, pode pedir!</a>
+                <button onclick="cancelado()";>>Cancelar</button>
+            </div>
+        </div>
+    </div>
+    </div> 
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- 
+HTML
+Teste ok.
+
+CSS
+Botão e barra inferior não estão fixados corretamente. 
+
+JS
+Teste ok.
+-->
