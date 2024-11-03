@@ -90,5 +90,3 @@ const mensagem = `Olá, gostaria de fazer o pedido: \n
 }
 
 
-
-// Falta fazer funcionar o Botão de enviar mensagem no whatsapp e Cancelar o pedido  //
