@@ -176,13 +176,11 @@
     z-index: 1000;
     visibility:hidden;
     opacity: 0;
-    }
+}
 
 .visivel {
     visibility: visible;
     opacity: 1;
-    
-
 }
 
 .tela-pedido {
@@ -244,7 +242,5 @@
     width: 100%;
     height: auto;
 }
-
-
 
 }

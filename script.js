@@ -60,7 +60,6 @@ tela.innerHTML = `
 document.getElementById("confirmar-pedido").onclick = enviarMensagem;
 document.getElementById("cancelar-pedido").onclick = cancelado;
 
-
 }
 
 function somatoria(comida, bebida, sobremesa){
@@ -88,5 +87,4 @@ const mensagem = `Olá, gostaria de fazer o pedido: \n
  window.location.href = url;
  
 }
-
 
