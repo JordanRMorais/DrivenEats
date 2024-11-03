@@ -122,7 +122,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #FFFFFF;
 }
@@ -236,4 +236,15 @@
     background-color: #50D074;
     border: none;
     cursor: pointer;
+}
+
+@media (max-wight < 414px) {
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+
+
 }
